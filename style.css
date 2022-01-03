@@ -1,0 +1,34 @@
+.background-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.background-default {
+background-color: rgb(43, 1, 78);
+height: 100vh;
+width: 800px;
+}
+
+.background-color {
+background-color: pink;
+height: 100vh;
+background-image: linear-gradient(#DD2A7B, #8134AF, #515BD4);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 10px;
+}
+
+.nav-item a {
+    color: white;
+   text-decoration: none;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-item {
+    list-style: none;
+    padding: 0 10px 0 10px;
+}
